@@ -1,0 +1,13 @@
+{
+	"environment": "dev",
+	"app": {
+		"name": "redis",
+		"logPath": ""
+	},
+	"redis": {
+		"host": "",
+		"port": 6379,
+		"db": 0,
+		"password": ""
+	}
+}
