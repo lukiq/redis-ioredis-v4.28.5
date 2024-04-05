@@ -4,7 +4,6 @@ const redis = require("ioredis");
 
 module.exports = class RedisConnector {
     constructor(config) {
-        console.log('config', config);
         this.client = new redis({
             port: config.redis.port, // Redis port
             host: config.redis.host, // Redis host
